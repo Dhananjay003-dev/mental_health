@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+    /* Beige background */
+}
+
+.navbar {
+    background-color: #90ee90;
+    /* Sage green */
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    /* Blurry effect */
+}
+
+.navbar-heading {
+    color: #3f413c;
+    /* Dark green text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto 49px auto;
+    /* margin-top: 20px;
+    margin-bottom: 49px; */
+    padding: 20px;
+}
+
+.disclaimer-container {
+    background-color: #f8f8ff;
+    /* Light lavender background */
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+    text-align: center;
+}
+
+.disclaimer-container h1 {
+    color: #3f413c;
+    /* Dark green heading color */
+    margin-bottom: 20px;
+}
+
+.disclaimer-container p {
+    color: #6d6f63;
+    /* Grayish green text color */
+    line-height: 1.6;
+    /* Adjust line height for better readability */
+    margin-bottom: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #90ee90;
+    /* Sage green */
+    color: #3f413c;
+    /* Dark green text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #7cc47f;
+    /* Darker sage green on hover */
+    transform: scale(1.05);
+    /* Scale up on hover */
+}
+
+#quiz-container {
+    display: none;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f8faed;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+    margin-left: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #3f413c;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#options button {
+    width: 80%;
+    /* Decrease the width of the buttons */
+    margin-bottom: 15px;
+}
+
+#next-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #90ee90;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
